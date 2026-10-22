@@ -5,7 +5,7 @@
 The application has two components, `EntitiesList` and `EntityDetails`.
 Both load external data with a function passed in the `fetchMethod` prop, and both show the text `Loading...` while that data is not available yet.
 
-Extract the shared logic into a higher-order component.
+Extract the shared logic into a higher-order component .
 
 - Name it `withLoading`.
 - Put it in `src/components/withLoading.js` and export it as the default export.
